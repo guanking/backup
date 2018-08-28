@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="db.DB"/>
+<fullyQualifiedTypeName name="db.MySql"/>
+<fullyQualifiedTypeName name="db.Oracle"/>
+<fullyQualifiedTypeName name="db.SQLServer"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

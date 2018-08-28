@@ -1,0 +1,23 @@
+18:57:18 **** Incremental Build of configuration Debug for project C ****
+make all 
+Building target: C
+Invoking: GCC C Linker
+gcc  -o "C"  ./src/C.o   
+Finished building target: C
+ 
+18:59:48 **** Incremental Build of configuration Debug for project C ****
+make all 
+Building target: C
+Invoking: GCC C Linker
+gcc  -o "C"  ./src/C.o   
+Finished building target: C
+ 
+19:00:04 **** Incremental Build of configuration Debug for project C ****
+make all 
+make: 对“all”无需做任何事。
+19:00:24 **** Incremental Build of configuration Debug for project C ****
+make all 
+make: 对“all”无需做任何事。
+19:01:39 **** Incremental Build of configuration Debug for project C ****
+make all 
+make: 对“all”无需做任何事。

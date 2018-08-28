@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:DML.testSelect(DB, String),org.eclipse.launchbar.core.descriptorType.default\:Login.Login(int, int, int, Class),org.eclipse.launchbar.core.descriptorType.default\:Login.test,org.eclipse.launchbar.core.descriptorType.default\:C Debug,org.eclipse.launchbar.core.descriptorType.default\:Main,org.eclipse.launchbar.core.descriptorType.default\:Detect.login,org.eclipse.launchbar.core.descriptorType.default\:Detect,org.eclipse.launchbar.core.descriptorType.default\:Audit
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:C\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:DML.testSelect(DB,\ String)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:DML.testSelect(DB,\ String)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Detect.login/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Detect.login/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Detect/activeLaunchMode=debug
