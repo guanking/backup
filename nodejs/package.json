@@ -1,0 +1,15 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "Hello",
+  "main": "rf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GuanjieCao",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "querystring": "^0.2.0"
+  }
+}

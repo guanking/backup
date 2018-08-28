@@ -1,0 +1,14 @@
+22  NET_NS_INDEX
+1169 DCDM_P2P_PROTO_TCP_INDEX
+
+45:     2   SMTP
+46:     2   POP3
+47:     2   IMAP4
+71:     2   论坛列表
+109:    2   webmail通用邮箱
+数据库
+130:    1
+131:    1
+132:    1
+133:    1
+134:    1
