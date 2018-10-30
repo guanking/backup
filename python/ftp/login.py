@@ -1,5 +1,5 @@
 import ftplib
-g_cfg = {"username": "admin", "password": "admin", "host": "10.121.51.141"}
+g_cfg = {"username": "admin", "password": "admin", "host": ""}
 g_ftp = None
 
 

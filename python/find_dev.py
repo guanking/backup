@@ -1,7 +1,7 @@
 import requests
 import time
 import sys
-ip_range = "10.1.1"
+ip_range = ""
 def connect(index):
     try:
         resp = requests.get(
@@ -15,7 +15,7 @@ def connect(index):
     resp.encoding="utf-8"
     return resp.text
 
-def find_dev(lower, upper, badge="UAG3000"):
+def find_dev(lower, upper, badge=""):
     result = ""
     badge = badge.lower()
     for index in range(lower, upper):

@@ -1,7 +1,7 @@
 import login as lg
 import os
 g_ftp = None
-g_local_dir = "/home/c02804/tmp/"
+g_local_dir = "/home/"
 
 
 def download(files):

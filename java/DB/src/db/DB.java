@@ -2,33 +2,18 @@ package db;
 
 import java.sql.SQLException;
 
-/**
- * 
- * @author GuanjieCao <br>
- * @description 共享：<br>
- *              1、数据库资料：<br>
- *              IP：10.121.51.12<br>
- *              帐号：administer<br>
- *              密码：1q2w3e4r<br>
- *              目录：dbjar,myshare,myshare2,Users<br>
- *              2、报文、问题：<br>
- *              IP:172.152.254.41<br>
- *              帐号：rd/c02804<br>
- *              密码：cgj@dp123<br>
- *              目录：uag,cdn<br>
- */
 public abstract class DB {
-	public static final String MySQLUrl = "jdbc:mysql://10.121.15.6:3306/cgj";
-	public static final String MySQLUserName = "root";
-	public static final String MySQLPassword = "1q2w3e4r";
+	public static final String MySQLUrl = "";
+	public static final String MySQLUserName = "";
+	public static final String MySQLPassword = "";
 
-	public static final String OracleUrl = "jdbc:oracle:thin:@10.121.15.55:1521:orcl";
-	public static final String OracleUserName = "system";
-	public static final String OraclePassword = "1q2w3e4r";
+	public static final String OracleUrl = "";
+	public static final String OracleUserName = "";
+	public static final String OraclePassword = "";
 
-	public static final String SQLServerUrl = "jdbc:sqlserver://10.121.15.1:1433;DatabaseName=tempdb";
-	public static final String SQLServerUserName = "sa";
-	public static final String SQLServerPassword = "5584101";
+	public static final String SQLServerUrl = "";
+	public static final String SQLServerUserName = "";
+	public static final String SQLServerPassword = "";
 
 	static {
 		try {

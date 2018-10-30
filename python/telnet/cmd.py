@@ -3,22 +3,16 @@ host, port = [("10.121.215.4", 10027)][0]
 cmd = {
     "10027": {
         "get": [
-            "cd /usr/local/web/htdocs/xsl/terminal_manage",
-            "tftp -pl mbt_policy.xsl 10.121.215.131",
-            "tftp -pl sht_policy.xsl 10.121.215.131",
-            "cd /usr/local/web/device/terminal_manage",
-            "tftp -pl mbt_policy.xml 10.121.215.131",
-            "tftp -pl sht_policy.xml 10.121.215.131"
         ],
         "put": [],
         "cmd": []
     }
 }["10027"]["get"]
 view = [{
-    "user": "<DPTECH>",
-    "conf": "[DPTECH]",
-    "dev": "[DPTECH-Developer]",
-    "shell": "[DPTECH-Developer-Shell]"
+    "user": "",
+    "conf": "",
+    "dev": "",
+    "shell": ""
 }][0]
 b_view = {}
 #进入shell的命令

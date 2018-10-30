@@ -4,10 +4,9 @@ import sys
 
 #登录
 def login ():
-    data = {"redirect": "", "username": "c02804", "userpass": "D3LYmnG2g9"}
-    # data = {"redirect": "", "username": "y02759", "userpass": "yBffBue89m"}
+    data = {"redirect": "", "username": "", "userpass": ""}
     try:
-        resp = requests.post("http://1.0.0.2:5281/func/web_main/webauth_login", data=data)
+        resp = requests.post("http://", data=data)
     except:
         # print("login fail, exception occur")
         return False
@@ -19,12 +18,12 @@ def login ():
         return True
 #保活
 def keepAlive(minutes = 5):
-    data = {"username": "c02804"}
+    data = {"username": ""}
     while 0 < minutes:
         minutes -= 1
         try:
             resp = requests.post(
-                "http://1.0.0.2:5281/func/web_main/display/portal/webauth_http/update",
+                "http://",
                 data=data)
         except:
             # print("keep alive fail, exception occur")
